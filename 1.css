@@ -1,0 +1,128 @@
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation */
+nav {
+  background-color: #ccc;
+  padding: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size:30px;
+}
+
+nav ul li a:hover {
+  color: #fff;
+}
+
+/* Main content */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.telefon-conteiner a h3 {
+  font-family: Arial, sans-serif;
+  color:black;
+  font-weight: bold;
+  font-size:30px;
+}
+.telefon-conteiner a:hover h3 {
+
+  color:#05cde3;
+}
+
+.telefon-conteiner a {
+  text-decoration: none;
+  margin:10px;
+  text-align:center;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .telefon-conteiner {
+  display: flex;
+  flex-wrap: wrap;
+}
+img{
+	
+	width:350px;
+	height:350px
+}
+.telefoni h2{
+	
+	text-align:center;
+	font-size:30px;
+}
+body {
+    background-image:url(pozadina.png);
+	 background-size:cover;
+	background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+
+}
+.logo{
+	
+	width:70px;
+	height:70px;
+	position:absolute;
+	left:50px;
+	top:20px;
+}
+pre{
+	font-family: Arial, sans-serif;
+	font-size:14px;
+	
+}
+.selected{
+	
+	color:#05cde3;
+}
+
+
+.kontakt{
+	
+	
+	right:30;
+}
